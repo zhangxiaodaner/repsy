@@ -39,10 +39,7 @@
 				width: 5px;
 				height: 100%;
 			}
-			/*.active b{
-				width: 5px;
-    			background-color: #f8b500;
-			}   */
+			
 			li b{
 				position: absolute;
 				z-index: 1;
@@ -89,33 +86,43 @@
 					<b class="br"></b>
 					<b class="bl"></b>
 					<b class="bb"></b>
-					<a href="#">首页</a></li>
+					<a href="#">首页</a>
+				</li>
 				<li>
 					<b class="bt"></b>
 					<b class="br"></b>
 					<b class="bl"></b>
 					<b class="bb"></b>
-					<a href="#">首页</a></li>
+					<a href="#">首页</a>
+				</li>
 				<li>
 					<b class="bt"></b>
 					<b class="br"></b>
 					<b class="bl"></b>
-					<b class="bb"></b><a href="#">首页</a></li>
+					<b class="bb"></b>
+					<a href="#">首页</a>
+				</li>
 				<li>
 					<b class="bt"></b>
 					<b class="br"></b>
 					<b class="bl"></b>
-					<b class="bb"></b><a href="#">首页</a></li>
+					<b class="bb"></b>
+					<a href="#">首页</a>
+				</li>
 				<li>
 					<b class="bt"></b>
 					<b class="br"></b>
 					<b class="bl"></b>
-					<b class="bb"></b><a href="#">首页</a></li>
+					<b class="bb"></b>
+					<a href="#">首页</a>
+				</li>
 				<li>
 					<b class="bt"></b>
 					<b class="br"></b>
 					<b class="bl"></b>
-					<b class="bb"></b><a href="#">首页</a></li>
+					<b class="bb"></b>
+					<a href="#">首页</a>
+				</li>
 			</ul>
 		</div>
 	</body>
