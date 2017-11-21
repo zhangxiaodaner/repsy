@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width: 100%;
+				height: 900px;
+				background-color: rgba(0,0,0,.9);
+				padding-top: 100px;
+			}
+			ul{
+				width: 80%;
+				margin: 0 auto;
+				clear: both;
+			}
+			li{
+				float: left;
+				margin: 0 20px;
+				list-style: none;
+				padding: 40px;
+				box-sizing: border-box;
+				position: relative;
+			}
+			a{
+				text-decoration: none;
+				font-size: 18px;
+				color: #fff;
+			}
+			.active b{
+				background-color: #f8b500;
+			}
+			.active .bt,.active .bb{
+				width: 100%;
+				height: 5px;
+			}
+			.active .br,.active .bl{
+				width: 5px;
+				height: 100%;
+			}
+			/*.active b{
+				width: 5px;
+    			background-color: #f8b500;
+			}   */
+			li b{
+				position: absolute;
+				z-index: 1;
+				background-color: #fff;
+				transition: all .3s linear 0s;
+			}
+			.bt{
+				top: 0;
+				left: 0;
+				height: 5px;
+				width: 0;
+			}
+			.br{
+				right: 0;
+				top: 0;
+				height: 0px;
+				width: 5px;
+			}
+			.bb{
+				bottom: 0;
+				right: 0;
+				height: 5px;
+				width: 0;
+			}
+			.bl{
+				top: 0;
+				left: 0;
+				height: 0px;
+				width: 5px;
+			}
+			li:hover .bt,li:hover .bb{
+				width: 100%;
+			}
+			li:hover .br,li:hover .bl{
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li class="active">
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b>
+					<a href="#">首页</a></li>
+				<li>
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b>
+					<a href="#">首页</a></li>
+				<li>
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b><a href="#">首页</a></li>
+				<li>
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b><a href="#">首页</a></li>
+				<li>
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b><a href="#">首页</a></li>
+				<li>
+					<b class="bt"></b>
+					<b class="br"></b>
+					<b class="bl"></b>
+					<b class="bb"></b><a href="#">首页</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
